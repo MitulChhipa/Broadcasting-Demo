@@ -1,0 +1,323 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mitul/Git/Broadcasting-Demo
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51732
+Successfully changed project path to: C:/Users/mitul/Git/Broadcasting-Demo
+C:/Users/mitul/Git/Broadcasting-Demo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7352] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 3450718564 [EditorId] 3450718564 [Version] 1048832 [Id] WindowsEditor(7,Ashborn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7352] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 3450718564 [EditorId] 3450718564 [Version] 1048832 [Id] WindowsEditor(7,Ashborn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 20.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mitul/Git/Broadcasting-Demo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006599 seconds.
+- Loaded All Assemblies, in  0.363 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 618ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (130ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 9.22 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (419ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 8.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (249.5 KB). Loaded Objects now: 4528.
+Memory consumption went from 150.0 MB to 149.7 MB.
+Total: 4.172500 ms (FindLiveObjects: 0.606900 ms CreateObjectMapping: 0.154200 ms MarkObjects: 3.152400 ms  DeleteObjects: 0.257000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UnityThread.cs: a3a8abfff6ce5628c62b9dec3472ef28 -> ef45346041f31a73560c66fe2c98d4fa
+  custom:scripting/monoscript/fileName/ServerBinaryAckMessage.cs: b8a4cc624b07088b15a697e09aec252f -> 714bae21dcec1f650383c7ff024f8dae
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IUriConverter.cs: 77fb6b06a74b0d9e900cd37ea737b59a -> 87811fa5c8b6fd6e5d626a0ba8e9a34f
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/IJsonSerializer.cs: 6b9261058a1c0b449d8921b13483229d -> da81bc366199fe7ea0fcaa09cf758f04
+  custom:scripting/monoscript/fileName/NewtonsoftJsonSerializer.cs: 3bde0c6748863902258f14b22aaec969 -> a7bf76db5d072c5ebfe1a011471f5e8b
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OpenedMessage.cs: 8483f653fa4eea2bc03c6b5f0307581e -> 2ece22e4f32fcf1949951df2f50cdb71
+  custom:scripting/monoscript/fileName/IClientWebSocket.cs: 02802e4118ee131f6f43e335dd6802b1 -> aada8061c440724e87899c66738b5e32
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SocketIO.cs: ac717177c2bb3a0a232d13b4af0e0f04 -> 4895481508fe72cefdc370cde5601fd4
+  custom:scripting/monoscript/fileName/DisconnectedMessage.cs: ac10a787b80bae3753b56c6d9b24b88a -> 5421aa07be78626a5ea501f670034f3d
+  custom:scripting/monoscript/fileName/ClientBinaryAckMessage.cs: 464a4f16b9e81a8a3c9238f621ca9087 -> 56110aa1ec244b88e51b7db4e05e394d
+  custom:scripting/monoscript/fileName/WebSocketTransport.cs: d562aebcdc85c5d342c9c8bad5b54863 -> 655a996e6b8e73b678cb93e3f9c3462a
+  custom:scripting/monoscript/fileName/MessageFactory.cs: e34c21c37bf6c8c5546249eb3e111235 -> 6a4194c4526aa8cc3b912928967a7102
+  custom:scripting/monoscript/fileName/ConnectedMessage.cs: f4a549a73deb3d077c5573183115b6ae -> 65955bbec041a9d95cd7780b6bb500fc
+  custom:scripting/monoscript/fileName/Eio3HttpPollingHandler.cs: f5a2252799271d9a97511132ab5be8c1 -> dd07d93474b74af45ca1671b71847a1f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/SocketIOUnity.cs: a545a1e243f151f0f532563434f2a92f -> 432cb9df76b52eb7c5fc166ccb9e1fe4
+  custom:scripting/monoscript/fileName/ClientAckMessage.cs: c999aac03601935f4e4da52ced8da2c0 -> 01bae750665194762d9dbfce3bcb10cc
+  custom:scripting/monoscript/fileName/BinaryMessage.cs: f228ed6ef594e2fb848ccebdd1b70692 -> f82cc674cfd915b0d2e1652b15783531
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IMessage.cs: 3e36c8bf29d01fbec09d15bdf407a068 -> 76b62741a66acd1751ffab08dab5bb7e
+  custom:scripting/monoscript/fileName/SocketIOOptions.cs: 59a94b24ee94297a366159ea5ddb1163 -> 5b55a3b8be9c767c71ec8f67c67e119d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/Eio4HttpPollingHandler.cs: b5aa65008285c65ab548317ff07de406 -> 9031ec168ca28c47cd7a7ddc851a9017
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Payload.cs: 1fa135ce34fdfd3e7b789cfd6170a5be -> 713da31dbec19b7436b77a09b9de770e
+  custom:scripting/monoscript/fileName/SystemTextJsonSerializer.cs: c07e5a34012d4854259e53e17618def9 -> fd5c2bc01ed2d1895f178d22e2d19343
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ByteArrayConverter.cs: 9cebc53c0ece3ef30eba4f6fe9635e17 -> 75b1893d974c6d82f580f342dc2e61c3
+  custom:scripting/monoscript/fileName/ErrorMessage.cs: 43c3115f4762ed7bdd328fea31b64d6d -> 8be24d8b903bb127dac6825534d99480
+  custom:scripting/monoscript/fileName/HttpTransport.cs: 6588dfda3bcbc9566a26851abf310026 -> 0ac862cae9ce1aaa597c7b6d9164c60b
+  custom:scripting/monoscript/fileName/EventMessage.cs: 2389d5a5a6f41afc5ba36d8b906042b9 -> 3986f28224632f182a861703e2fb9b06
+  custom:scripting/monoscript/fileName/HttpPollingHandler.cs: 39d58437475880433808724cce792fc7 -> decee755dd5eb31bf0acdeb3f9093057
+  custom:scripting/monoscript/fileName/PongMessage.cs: 6e1c64103a08ed2ae4af2613e953afbb -> 7ce0b700f931544b4ae6291c7867718e
+  custom:scripting/monoscript/fileName/IHttpPollingHandler.cs: f8e1f7aef0fdb57d28bca7d6116bd9eb -> 68efcf3a7b0538c834ddd4e553e7b167
+  custom:scripting/monoscript/fileName/BaseTransport.cs: 1e2679afdc25ac9f672735c8c30008a6 -> e4f3729ec296d60f27ff1ddd07524a5e
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ServerAckMessage.cs: b79de9370364b773a9c1658ec18112e3 -> 737b5d46ce96fb5fd8746d284c2cb3c9
+  custom:scripting/monoscript/fileName/UriConverter.cs: 6a87f3501a6a0f69d1a890916a21ddb1 -> 6c31c34bba64727412363161d0df4f54
+  custom:scripting/monoscript/fileName/SystemNetWebSocketsClientWebSocket.cs: 3992cd85451e4ba1ca7f91def9d3c4cd -> 3ea32967e26c2d8e4ee143298548cc48
+  custom:scripting/monoscript/fileName/SocketIOResponse.cs: c4bd673d47cd575ecfd2731cc08d3e25 -> a4d81f6d37a4a7498043a3d60ffbf44f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/JsonSerializeResult.cs: 4a40fc95298949daf9122d0ae909a081 -> b7e64d9e9e738910b38651197d54b2fb
+  custom:scripting/monoscript/fileName/DisconnectReason.cs: 1f618ad4c1e9e22c1c946c457cfb2117 -> 182e302013e05cddae90c58f96e09aad
+  custom:scripting/monoscript/fileName/PingMessage.cs: a1c257ef31a94aa5bfc7dd7329066dc3 -> d7012cf8872defb86b282141a0e93afd
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 10.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 1595ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1010ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 10.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (222.1 KB). Loaded Objects now: 4533.
+Memory consumption went from 147.5 MB to 147.3 MB.
+Total: 4.533500 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.098700 ms MarkObjects: 3.851100 ms  DeleteObjects: 0.247100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/UnityThread.cs: a3a8abfff6ce5628c62b9dec3472ef28 -> ef45346041f31a73560c66fe2c98d4fa
+  custom:scripting/monoscript/fileName/ServerBinaryAckMessage.cs: b8a4cc624b07088b15a697e09aec252f -> 714bae21dcec1f650383c7ff024f8dae
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/IUriConverter.cs: 77fb6b06a74b0d9e900cd37ea737b59a -> 87811fa5c8b6fd6e5d626a0ba8e9a34f
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/IJsonSerializer.cs: 6b9261058a1c0b449d8921b13483229d -> da81bc366199fe7ea0fcaa09cf758f04
+  custom:scripting/monoscript/fileName/NewtonsoftJsonSerializer.cs: 3bde0c6748863902258f14b22aaec969 -> a7bf76db5d072c5ebfe1a011471f5e8b
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OpenedMessage.cs: 8483f653fa4eea2bc03c6b5f0307581e -> 2ece22e4f32fcf1949951df2f50cdb71
+  custom:scripting/monoscript/fileName/IClientWebSocket.cs: 02802e4118ee131f6f43e335dd6802b1 -> aada8061c440724e87899c66738b5e32
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SocketIO.cs: ac717177c2bb3a0a232d13b4af0e0f04 -> 4895481508fe72cefdc370cde5601fd4
+  custom:scripting/monoscript/fileName/DisconnectedMessage.cs: ac10a787b80bae3753b56c6d9b24b88a -> 5421aa07be78626a5ea501f670034f3d
+  custom:scripting/monoscript/fileName/ClientBinaryAckMessage.cs: 464a4f16b9e81a8a3c9238f621ca9087 -> 56110aa1ec244b88e51b7db4e05e394d
+  custom:scripting/monoscript/fileName/WebSocketTransport.cs: d562aebcdc85c5d342c9c8bad5b54863 -> 655a996e6b8e73b678cb93e3f9c3462a
+  custom:scripting/monoscript/fileName/MessageFactory.cs: e34c21c37bf6c8c5546249eb3e111235 -> 6a4194c4526aa8cc3b912928967a7102
+  custom:scripting/monoscript/fileName/ConnectedMessage.cs: f4a549a73deb3d077c5573183115b6ae -> 65955bbec041a9d95cd7780b6bb500fc
+  custom:scripting/monoscript/fileName/Eio3HttpPollingHandler.cs: f5a2252799271d9a97511132ab5be8c1 -> dd07d93474b74af45ca1671b71847a1f
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/SocketIOUnity.cs: a545a1e243f151f0f532563434f2a92f -> 432cb9df76b52eb7c5fc166ccb9e1fe4
+  custom:scripting/monoscript/fileName/ClientAckMessage.cs: c999aac03601935f4e4da52ced8da2c0 -> 01bae750665194762d9dbfce3bcb10cc
+  custom:scripting/monoscript/fileName/BinaryMessage.cs: f228ed6ef594e2fb848ccebdd1b70692 -> f82cc674cfd915b0d2e1652b15783531
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IMessage.cs: 3e36c8bf29d01fbec09d15bdf407a068 -> 76b62741a66acd1751ffab08dab5bb7e
+  custom:scripting/monoscript/fileName/SocketIOOptions.cs: 59a94b24ee94297a366159ea5ddb1163 -> 5b55a3b8be9c767c71ec8f67c67e119d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/Eio4HttpPollingHandler.cs: b5aa65008285c65ab548317ff07de406 -> 9031ec168ca28c47cd7a7ddc851a9017
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/Payload.cs: 1fa135ce34fdfd3e7b789cfd6170a5be -> 713da31dbec19b7436b77a09b9de770e
+  custom:scripting/monoscript/fileName/SystemTextJsonSerializer.cs: c07e5a34012d4854259e53e17618def9 -> fd5c2bc01ed2d1895f178d22e2d19343
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ByteArrayConverter.cs: 9cebc53c0ece3ef30eba4f6fe9635e17 -> 75b1893d974c6d82f580f342dc2e61c3
+  custom:scripting/monoscript/fileName/ErrorMessage.cs: 43c3115f4762ed7bdd328fea31b64d6d -> 8be24d8b903bb127dac6825534d99480
+  custom:scripting/monoscript/fileName/HttpTransport.cs: 6588dfda3bcbc9566a26851abf310026 -> 0ac862cae9ce1aaa597c7b6d9164c60b
+  custom:scripting/monoscript/fileName/EventMessage.cs: 2389d5a5a6f41afc5ba36d8b906042b9 -> 3986f28224632f182a861703e2fb9b06
+  custom:scripting/monoscript/fileName/HttpPollingHandler.cs: 39d58437475880433808724cce792fc7 -> decee755dd5eb31bf0acdeb3f9093057
+  custom:scripting/monoscript/fileName/PongMessage.cs: 6e1c64103a08ed2ae4af2613e953afbb -> 7ce0b700f931544b4ae6291c7867718e
+  custom:scripting/monoscript/fileName/IHttpPollingHandler.cs: f8e1f7aef0fdb57d28bca7d6116bd9eb -> 68efcf3a7b0538c834ddd4e553e7b167
+  custom:scripting/monoscript/fileName/BaseTransport.cs: 1e2679afdc25ac9f672735c8c30008a6 -> e4f3729ec296d60f27ff1ddd07524a5e
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ServerAckMessage.cs: b79de9370364b773a9c1658ec18112e3 -> 737b5d46ce96fb5fd8746d284c2cb3c9
+  custom:scripting/monoscript/fileName/UriConverter.cs: 6a87f3501a6a0f69d1a890916a21ddb1 -> 6c31c34bba64727412363161d0df4f54
+  custom:scripting/monoscript/fileName/SystemNetWebSocketsClientWebSocket.cs: 3992cd85451e4ba1ca7f91def9d3c4cd -> 3ea32967e26c2d8e4ee143298548cc48
+  custom:scripting/monoscript/fileName/SocketIOResponse.cs: c4bd673d47cd575ecfd2731cc08d3e25 -> a4d81f6d37a4a7498043a3d60ffbf44f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/JsonSerializeResult.cs: 4a40fc95298949daf9122d0ae909a081 -> b7e64d9e9e738910b38651197d54b2fb
+  custom:scripting/monoscript/fileName/DisconnectReason.cs: 1f618ad4c1e9e22c1c946c457cfb2117 -> 182e302013e05cddae90c58f96e09aad
+  custom:scripting/monoscript/fileName/PingMessage.cs: a1c257ef31a94aa5bfc7dd7329066dc3 -> d7012cf8872defb86b282141a0e93afd

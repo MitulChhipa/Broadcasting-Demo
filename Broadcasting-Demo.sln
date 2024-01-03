@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketIOUnityAssembly", "SocketIOUnityAssembly.csproj", "{0C696EE2-B4DD-44E5-2911-B749DFC095F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{578CCF04-5446-6F92-FCC4-CE766D2EA662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C696EE2-B4DD-44E5-2911-B749DFC095F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C696EE2-B4DD-44E5-2911-B749DFC095F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C696EE2-B4DD-44E5-2911-B749DFC095F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C696EE2-B4DD-44E5-2911-B749DFC095F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578CCF04-5446-6F92-FCC4-CE766D2EA662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578CCF04-5446-6F92-FCC4-CE766D2EA662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578CCF04-5446-6F92-FCC4-CE766D2EA662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578CCF04-5446-6F92-FCC4-CE766D2EA662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
